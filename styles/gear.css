@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* universal design */
+*{
+  font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing:border-box
+}
+.cart-text{
+  color: var(--Gray-50, #787885);
+font-family: Inter;
+font-size: 0.875rem;
+font-weight: 700;
+line-height: 143%; /* 20.02px */
+letter-spacing: 0.252px;
+}
+
+
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  max-width: 2160px;
+  text-align: center;
+  /* border: 2px tomato solid; */
+  margin-top: 80px;
+}
+.nav-item ul{
+  display: flex;
+
+}
+.nav-item li{
+  list-style: none;
+  margin-right: 34px;
+}
+.nav-item li a{
+  text-decoration: none;
+  color: #3A3A3A;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+
+}
